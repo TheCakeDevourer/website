@@ -46,6 +46,12 @@ div.inside {
   height: auto;
 }
 
+div.seperator {
+  width: 95%;
+  margin: auto;
+  border-bottom: solid 1px white;
+}
+
 a.button {
   background-color: yellow;
   color: black;
