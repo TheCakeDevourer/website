@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+/*Font Import /\*/
+body {
+  color: white;
+  background-color: #262626;
+}
+
+h1,h2,h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+p,li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  white-space:pre-wrap;
+}
+
+p {
+  margin: 0px;
+}
+
+/* Link stuffs */
+a:link,a:visited,a:active {
+  color: yellow;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+  color: orange;
+}
+
+div.box {
+  background-color: #1a1a1a;
+  margin: auto;
+  width: 50%;
+  border-radius: 2px;
+  border: solid 1px white;
+  height: auto;
+}
+
+div.inside {
+  width: 99%;
+  height: auto;
+}
+
+a.button {
+  background-color: yellow;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 2px;
+  border: solid 1px yellow;
+}
+
+a.button:hover {
+  background-color: #1a1a1a;
+  color: yellow;
+}
