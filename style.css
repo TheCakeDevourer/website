@@ -68,3 +68,8 @@ a.button:hover {
   background-color: #1a1a1a;
   color: yellow;
 }
+
+img {
+  width: auto;
+  height: auto;
+}
