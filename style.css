@@ -70,6 +70,10 @@ a.button {
   border: solid 1px yellow;
 }
 
+a.social {
+  padding: 5px;
+}
+
 a.button:hover {
   background-color: #1a1a1a;
   color: yellow;
