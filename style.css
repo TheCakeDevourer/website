@@ -59,6 +59,11 @@ div.centered {
   width: 27%;
 }
 
+div.centered a {
+  display: inline;
+  float: none;
+}
+
 a.button {
   background-color: yellow;
   color: black;
