@@ -60,8 +60,8 @@ div.centered {
 }
 
 div.centered a {
-  display: inline;
-  float: none;
+  /*display: inline;*/
+  float: right;
 }
 
 a.button {
