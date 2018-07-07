@@ -32,6 +32,8 @@ a:hover {
   color: orange;
 }
 
+/*Div stuffs*/
+
 div.box {
   background-color: #1a1a1a;
   margin: auto;
@@ -50,6 +52,10 @@ div.seperator {
   width: 95%;
   margin: auto;
   border-bottom: solid 1px white;
+}
+
+div.centered {
+  margin: auto;
 }
 
 a.button {
