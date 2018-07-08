@@ -55,13 +55,11 @@ div.seperator {
 }
 
 div.centered {
-  margin: auto;
-  width: 27%;
+  float: right;
 }
 
 div.centered a {
-  /*display: inline;*/
-  float: right;
+  /*dUNNO*/
 }
 
 a.button {
