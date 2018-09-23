@@ -89,7 +89,7 @@ img {
 }
 
 
-button {
+button,select,input[type=number] {
   background-color: yellow;
   color: black;
   padding: 10px;
@@ -101,4 +101,35 @@ button {
   border: solid 1px yellow;
 }
 
-/* The followin' is stylin' for the currency converter */
+input:focus {
+  outline: none;
+}
+
+button:focus,select:focus,input:focus {
+  outline: none;
+}
+
+input:hover {
+  background-color: #1a1a1a;
+  color: yellow;
+}
+
+button:hover,select:hover,input[type=number]:hover::placeholder {
+  background-color: #1a1a1a;
+  color: yellow;
+}
+
+::placeholder {
+  color: black;
+}
+
+/* Some stuff for me */
+input[type="number"] {
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
