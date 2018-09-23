@@ -16,6 +16,17 @@
     <h2>Calculator</h2>
     <p>A JS Calculator</p>
     <iframe src='/projects/calc.html' height="400" style='border: none;'></iframe>
+    <h2>Game Curency converter</h2>
+    <p>A little program which converts game currencies into IRL money.</p>
+    <p id="IRLCurrency"></p>
+    <input type='number' id="gameCurrency" placeholder="Currency amount" step="100"/>
+    <select id="currencyChoice">
+      <option value="VBUCKS">VBucks</option>
+      <option value="MINECOIN">Minecraft Coins</option>
+      <option value="ROBUX">Robux</option>
+    </select>
+    <button onclick="convertCurrency()">Convert</button>
+    <p><strong>DISCLAIMER:</strong> All conversions are done with the lowest amount you can buy for real money (GBP), so it may not be 100% accurate.</p>
   </div>
   <div style='border-top: none;' class='box'>
     <div class='centered'>
@@ -24,3 +35,4 @@
       <a href='mailto:?Subject=Some%20great%20Code!&body=https://thecakedevourer.github.io/' onmouseover='hoverIcon(this)' onmouseout='unHover(this)' icon='email' title='Email' target='_blank' class='button social'><img src='/images/icons/email-black.png'></a>
     </div>
 </body>
+<script src='game-currency-converter.js'></script>
