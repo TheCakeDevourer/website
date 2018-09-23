@@ -87,3 +87,18 @@ img {
   max-width:100%;
   max-height:100%;
 }
+
+
+button {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-family: 'Raleway', sans-serif;
+  border-radius: 2px;
+  border: solid 1px yellow;
+}
+
+/* The followin' is stylin' for the currency converter */
